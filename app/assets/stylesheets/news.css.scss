@@ -1,0 +1,79 @@
+.news
+{
+  background: white;
+  table
+  {
+    border-collapse: collapse;
+  }
+  table tr td
+  {
+    padding: 10px;
+    vertical-align: top;
+  }
+  .list_image
+  {
+    width: 60px;
+    height: 80px;
+    text-align: center;
+  }
+  .list_category
+  {
+    font-weight: bold;
+    font-size: xx-large;
+    background: blue;
+  }
+  .list_description
+  {
+    width: 80%;
+    dl
+    {
+      margin: 0;
+    }
+    dt
+    {
+      font-weight: bold;
+      font-size: x-large;
+
+    }
+    dd
+    {
+      margin: 0;
+
+    }
+  }
+  .list_actions
+  {
+    font-size: x-small;
+    text-align: right;
+    padding-left: 10em;
+  }
+  .list_line_even
+  {
+    background: gray;
+
+  }
+  .list_line_odd
+  {
+    background: #d3d3d3;
+  }
+  .one_news
+  {
+    background: #d3d3d3;
+    width: 100%;
+    dl
+    {
+      margin: 0;
+    }
+    dt
+    {
+      font-weight: bold;
+      font-size: x-large;
+
+    }
+    dd
+    {
+      margin: 0;
+
+    }
+  }
+}
